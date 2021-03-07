@@ -18,3 +18,10 @@ Qualified 1C Developer with 15 years of experience, ready to a challenging retra
 - [Javascript Course in SkillUP](https://skillup.ua/lp/javascript-dnepr/) [Dnipro]
 - JavaScript.ru ([JavaScript/DOM/Interfaces](https://learn.javascript.ru/courses/js-20201211/pliavinskiy/en/certificate.jpg), [JavaScript/DOM/UI for programmers](https://learn.javascript.ru/courses/jsbasic-20201008/pliavinskiy/en/certificate.jpg))
 - Frontend/JavaScript in [EPAM](https://www.training.epam.ua/) [Dnipro]
+
+##### KEY SKILLS
+
+- HTML, CSS, SASS/SCSS/LESS, BEM
+- JavaScript, SQL
+- Git, Figma
+- Visual Studio, WebStorm, Sublime Text
