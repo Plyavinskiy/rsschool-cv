@@ -25,3 +25,21 @@ Qualified 1C Developer with 15 years of experience, ready to a challenging retra
 - JavaScript, SQL
 - Git, Figma
 - Visual Studio, WebStorm, Sublime Text
+
+##### CODE EXAMPLE
+
+```
+/**
+ * invertObj - should swap object keys and values
+ * @param {object} obj - the initial object
+ * @returns {object | undefined} - returns the new object or undefined if nothing did't pass
+ */
+function invertObj(obj) {
+    if (!obj) return;
+
+    return Object.entries(obj).reduce((accum, [key, value]) => {
+      accum[value] = key;
+      return accum;
+    }, {});
+  }
+```
