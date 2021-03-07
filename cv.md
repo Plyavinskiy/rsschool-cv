@@ -43,3 +43,11 @@ function invertObj(obj) {
     }, {});
   }
 ```
+
+##### WORK EXPERIENCE
+
+**Educational projects:**
+
+- Photo Gallery
+- Online Restaurant
+- Admin panel of goods for an online store
