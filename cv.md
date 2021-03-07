@@ -51,3 +51,7 @@ function invertObj(obj) {
 - Photo Gallery
 - Online Restaurant
 - Admin panel of goods for an online store
+
+##### LANGUAGES
+
+- English: B1 (Intermediate)
