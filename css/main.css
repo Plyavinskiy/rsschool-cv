@@ -38,4 +38,10 @@ body {
 
 .title {
   background-color: #e6e4fd;
+  text-align: center;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
 }
