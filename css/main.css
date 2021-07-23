@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap");
+
 * {
   font-family: "Nunito", sans-serif;
 }
@@ -14,12 +15,7 @@ body {
   width: 90vw;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.aside,
-.main {
-  padding: 1em;
+  grid-template-columns: 0.8fr 2fr;
 }
 
 .aside {
@@ -27,13 +23,26 @@ body {
   color: black;
 }
 
-.main {
-  background-color: white;
+figure {
+  text-align: center;
 }
 
 .photo {
   border-radius: 50%;
-  width: 100%;
+  width: 90%;
+}
+
+.contacts-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left-sections {
+  padding-left: 30px;
+}
+
+.main {
+  background-color: white;
 }
 
 .title {
@@ -41,7 +50,85 @@ body {
   text-align: center;
 }
 
+.name {
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.right-sections {
+  padding: 10px 0 0 30px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.contacts h2 {
+  display: none;
+}
+
+pre {
+  background-color: #f6f8fa;
+  margin: 0;
+}
+
 .footer {
-  margin: 0 auto;
-  text-align: center;
+  width: 90vw;
+  margin: auto;
+  border-top: 1px solid;
+  border-color: #e6e4fd;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  display: block;
+  padding-left: 45px;
+  background-image: url("../assets/svg/github.svg");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 45px;
+  color: #cbd5de;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+}
+
+.github:hover {
+  color: #a0adb8;
+}
+
+.rss {
+  display: block;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  height: 32px;
+  background-image: url("../assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 111px;
+}
+
+.rss-year {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 21px;
+  letter-spacing: -2px;
+  color: #cbd5de;
+  line-height: 0.8;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.rss:hover .rss-year {
+  right: -5px;
+  letter-spacing: 0;
 }
