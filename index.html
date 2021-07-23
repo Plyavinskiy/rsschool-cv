@@ -147,7 +147,26 @@
                 Admin panel of goods for an online store
               </li>
             </ul>
+            <p><strong>Code Example</strong></p>
+            <p>
+              <em
+                >An example of Javascript function that converts strings from
+                'my-short-string' to 'myShortString':</em
+              >
+            </p>
+            <pre>
+            <code>
+      function camelize(str) {
+          return str
+              .split('-')
+              .map((item, index) => {
+                  return index === 0 ? item : (item[0].toUpperCase() + item.slice(1));
+              })
+              .join('');
+      }
 
+      camelize('background-color') === 'backgroundColor';</code>
+          </pre>
           </section>
         </div>
       </main>
