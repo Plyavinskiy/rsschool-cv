@@ -69,6 +69,62 @@ h2 {
 }
 
 .footer {
-  margin: 0 auto;
-  text-align: center;
+  width: 90vw;
+  margin: auto;
+  border-top: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #38495a, #a2abb3, #38495a);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  display: block;
+  padding-left: 45px;
+  background-image: url("../assets/svg/github.svg");
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  line-height: 45px;
+  color: #cbd5de;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+}
+
+.github:hover {
+  color: #a0adb8;
+}
+
+.rss {
+  display: block;
+  position: relative;
+  font-family: "Nunito", sans-serif;
+  height: 32px;
+  background-image: url("../assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 111px;
+}
+
+.rss-year {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 21px;
+  letter-spacing: -2px;
+  color: #cbd5de;
+  line-height: 0.8;
+  font-weight: 900;
+  transition: 0.3s;
+}
+
+.rss:hover .rss-year {
+  right: -5px;
+  letter-spacing: 0;
 }
