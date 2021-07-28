@@ -10,10 +10,8 @@ body {
 }
 
 .content {
-  min-height: 100vh;
-  height: auto;
-  width: 90vw;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 0.8fr 2fr;
 }
@@ -30,6 +28,10 @@ figure {
 .photo {
   border-radius: 50%;
   width: 90%;
+}
+
+.list {
+  list-style-type: none;
 }
 
 .contacts-img {
@@ -74,8 +76,8 @@ pre {
 }
 
 .footer {
-  width: 90vw;
-  margin: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   border-top: 1px solid;
   border-color: #e6e4fd;
 }
